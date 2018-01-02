@@ -30,6 +30,24 @@ To verify goto (Terminal/GitBash) and type `conda -V` or `conda list`.
 `ls` will show what in the current directory
 `cd ..` will move us up a director back to Desktop`
 
-#### Inline code
+#### Github
 
-`$ npm install marked`
+`git add -A`
+
+`git commit -m <msg>`
+
+`git pull`
+###### If made updates in the pulled repo then do:
+`git fetch`
+
+`git reset --hard origin/master`
+
+### Api
+
+create api keys
+#### tweepy
+`source activate PythonData`
+`pip install tweepy`
+#### vader- sentiment analysis
+`source activate PythonData`
+`pip install vader`
