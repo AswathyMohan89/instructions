@@ -75,6 +75,7 @@ create app and create token
 `source activate PythonData`
 
 `pip install vaderSentiment==2.5`
+
 if it doesn't work try creating a new conda env:
 
 `conda create -n newPythonData python=3.6 anaconda` 
