@@ -8,7 +8,9 @@ windows : Goto https://www.python.org/downloads/windows/ and download latest ver
 
 ### conda
 mac : Goto https://conda.io/docs/user-guide/install/macos.html follow directions
+
 windows : Goto https://conda.io/docs/user-guide/install/windows.html follow directions
+![Blog](image.png)
 #### Remember to add to PATH variable during installiation
 To verify goto (Terminal/GitBash) and type `conda -V` or `conda list`.
 
