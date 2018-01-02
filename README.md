@@ -51,6 +51,11 @@ To verify goto (Terminal/GitBash) and type `conda -V` or `conda list`.
 `git reset --hard origin/master`
 
 ### Api
+1. http://www.omdbapi.com/apikey.aspx -OMDB
+2. https://openweathermap.org/appid -OpenWeatherMap
+3. https://developer.nytimes.com/signup- NyTimes
+4. https://console.developers.google.com/apis- Google Maps
+5. https://apps.twitter.com - Twitter
 
 create api keys
 
