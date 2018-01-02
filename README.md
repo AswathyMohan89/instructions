@@ -60,8 +60,11 @@ create api keys
 
 `pip install tweepy`
 
+https://apps.twitter.com/
+create app and create token
+
 #### vader- sentiment analysis
 
 `source activate PythonData`
 
-`pip install vader`
+`pip install vaderSentiment==2.5`
