@@ -83,3 +83,29 @@ if it doesn't work try creating a new conda env:
 `source activate PythonData`
 
 `pip install vaderSentiment==2.5`
+
+
+### IPYWIDGETS (http://ipywidgets.readthedocs.io/en/stable/user_install.html)
+
+`pip install ipywidgets`
+
+`jupyter nbextension enable --py widgetsnbextension`
+
+When using virtualenv and working in an activated virtual environment, the --sys-prefix option may be required to enable the extension and keep the environment isolated (i.e. `jupyter nbextension enable --py widgetsnbextension --sys-prefix`).
+
+#### via Conda
+
+`conda install -c conda-forge ipywidgets`
+
+`jupyter labextension install @jupyter-widgets/jupyterlab-manager`
+
+
+To install the JupyterLab extension you also need to run the command below in a terminal which requires that you have nodejs installed.
+
+`jupyter labextension install @jupyter-widgets/jupyterlab-manager`
+Note: A clean reinstall of the JupyterLab extension can be done by first running the jupyter lab clean command which will remove the staging and static directories from the lab directory. The location of the lab directory can be queried by executing the command jupyter lab path in your terminal.
+
+### Plotly(https://plot.ly/python/getting-started/)
+
+`pip install plotly`
+
