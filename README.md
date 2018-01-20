@@ -1,5 +1,5 @@
 # instructions
-
+`git reset --hard HEAD`
 ### Python
 
 mac : Goto https://www.python.org/downloads/ and download latest version
