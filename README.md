@@ -1,5 +1,15 @@
 # instructions
+Force git pull to overwrite local files:
+
 `git reset --hard HEAD`
+
+*or*
+
+`git fetch origin master`
+
+`git reset —hard FETCH_HEAD`
+
+`git clean -df`
 ### Python
 
 mac : Goto https://www.python.org/downloads/ and download latest version
