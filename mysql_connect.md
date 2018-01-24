@@ -7,7 +7,7 @@
    1. `from sqlalchemy import create_engine`
    2. `import pymysql`
    3. `pymysql.install_as_MySQLdb()`
-   4. `engine = create_engine("mysql://<username>:<password>@localhost:3306/<database/schema>")`
+   4. `engine = create_engine("mysql://<username>:<password>@localhost:3306/<schema>")`
    5. `i=engine.execute("select * from <tablename>")`
    6. *for Pandas:*
       1. `conn = engine.connect()`
