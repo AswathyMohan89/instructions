@@ -10,6 +10,26 @@ Force git pull to overwrite local files:
 `git reset —hard FETCH_HEAD`
 
 `git clean -df`
+
+### Force push to git:
+
+`git push origin <your_branch_name> -f`
+
+### Creating webdashboard:
+`mkdir githubsite`
+
+`cd githubsite`
+
+`git init`
+
+`git status`
+
+`git add .`
+
+`git commit -m "first commit"`
+
+`git remote add origin https://github.com/<githubusername>/<reponame>.github.io.git`
+
 ### Python
 
 mac : Goto https://www.python.org/downloads/ and download latest version
