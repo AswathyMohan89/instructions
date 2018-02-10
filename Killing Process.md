@@ -3,8 +3,8 @@
 
 
 1. open cmd and do :`netstat -ano | findstr :<portno>`
-![finding_ports](finding_ports.png)
+![finding_ports](finding_ports.PNG)
 2. do `TASKKILL /?` to get option available for killing
 3. do `TASKKILL /PID <process id> / F`  . F - forcefully quits the process.
-![killing](killing.png)
+![killing](killing.PNG)
 
