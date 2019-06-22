@@ -1,7 +1,7 @@
 ### Creating branch and pushing to branch
-1. git clone <repo>
-2. git pull
-3. Createnew branch `git checkout -b "<branchname>"`
+1. `git clone <repo>` in Gitbash terminal 
+2. Do `git pull`
+3. Createnew branch  using `git checkout -b "<branchname>"`
 4. `git branch`: to check branch. will give result: `*"<branchname>" and master`
 5. Command line: Create a folder :`mkdir raw_data` under your branch 
 6. On command  type `echo “raw_data/“ >> .gitignore` (include files or folders that you dont what to push)
